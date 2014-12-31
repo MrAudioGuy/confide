@@ -87,7 +87,7 @@
 			Schema::table('oath', function($table)
 			{
 				$table->dropForeign('oath_user_id_foreign');
-				$table->dropForeign('oath_provider_foreign');
+				$table->dropForeign('oath_provider_id_foreign');
 			});
 
 			Schema::drop('oathproviders');
